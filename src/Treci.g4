@@ -29,7 +29,7 @@ grammar Treci;
 prog
     @after{
         korisnici.forEach((newKorisnik) -> {
-            System.out.println(newKorisnik);
+            // TODO: stampaj najvece
         });
     }
     :
